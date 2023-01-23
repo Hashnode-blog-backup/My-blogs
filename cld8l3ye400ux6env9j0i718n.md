@@ -63,7 +63,10 @@ An example of a response line is In this example:
 the HTTP version is `HTTP/1.1`
 the status code is `200`
 the reason phrase is `OK`
-6.   **Rendering the Response.** If the server's response status code is 200 and the response content type is text/html, our browser will begin rendering the contents it received. The response’s body tells the browser what should be presented to the user. The server can return other content, such as XML, but we’ll stick to the basics for this example.
+
+6.   **Rendering the Response.** 
+
+If the server's response status code is 200 and the response content type is text/html, our browser will begin rendering the contents it received. The response’s body tells the browser what should be presented to the user. The server can return other content, such as XML, but we’ll stick to the basics for this example.
 
 ## **HTTP is stateless.**
 
