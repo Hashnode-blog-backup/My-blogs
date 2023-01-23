@@ -44,7 +44,6 @@ Because the internet can include any number of computers talking to each other, 
     4. **Request line** The request line is the first line in the request message. It consists of at least three items:
     5. A **method**. The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.
     6. The path component of the URL for the request. The path identifies the resource on the server.
-        
     7. The HTTP version number shows the HTTP specification to which the client has tried to make the message comply.
         
 5. **Server response.**
@@ -56,9 +55,9 @@ Because the internet can include any number of computers talking to each other, 
     2. A series of HTTP headers, or header fields.
     3. A message body is usually needed. As in a request message, each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then the message body begins.
 **Status line** The status line is the first line in the response message. It consists of three items:
-1. The HTTP version number shows the HTTP specification to which the server has tried to make the message comply.  
-2. A **status code**, which is a three-digit number indicating the result of the request.
-3. A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
+The HTTP version number shows the HTTP specification to which the server has tried to make the message comply.  
+     A **status code**, which is a three-digit number indicating the result of the request.
+   A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
 An example of a response line is In this example:
 the HTTP version is `HTTP/1.1`
 the status code is `200`
