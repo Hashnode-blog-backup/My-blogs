@@ -1,4 +1,4 @@
-# Internet
+# Internet And How It Works.
 
 # **What is the Internet?**
 
@@ -64,14 +64,10 @@ Because the internet can include any number of computers talking to each other, 
 2. A **status code**, which is a three-digit number indicating the result of the request.
 3. A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
 An example of a response line is In this example:
-
 the HTTP version is `HTTP/1.1`
-
 the status code is `200`
-
 the reason phrase is `OK`
-
-6.  **Rendering the Response.**
+6.   **Rendering the Response.**
       If the server's response status code is 200 and the response content type is text/html, our browser will begin rendering the contents it received. The response’s body tells the browser what should be presented to the user.
 The server can return other content, such as XML, but we’ll stick to the basics for this example.
 
