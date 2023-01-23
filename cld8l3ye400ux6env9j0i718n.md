@@ -52,14 +52,10 @@ Because the internet can include any number of computers talking to each other, 
     An HTTP response is made by a server to a client. The response aims to provide the client with the resource it requested, inform the client that the action it requested has been carried out, or else inform the client that an error occurred in processing its request.
     
     An HTTP response contains:
-    
-    1. A status line.
-        
+    1. A status line.    
     2. A series of HTTP headers, or header fields.
-        
     3. A message body is usually needed. As in a request message, each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then the message body begins.
 **Status line** The status line is the first line in the response message. It consists of three items:
-
 1. The HTTP version number shows the HTTP specification to which the server has tried to make the message comply.  
 2. A **status code**, which is a three-digit number indicating the result of the request.
 3. A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
@@ -67,9 +63,7 @@ An example of a response line is In this example:
 the HTTP version is `HTTP/1.1`
 the status code is `200`
 the reason phrase is `OK`
-6.   **Rendering the Response.**
-      If the server's response status code is 200 and the response content type is text/html, our browser will begin rendering the contents it received. The response’s body tells the browser what should be presented to the user.
-The server can return other content, such as XML, but we’ll stick to the basics for this example.
+6.   **Rendering the Response.** If the server's response status code is 200 and the response content type is text/html, our browser will begin rendering the contents it received. The response’s body tells the browser what should be presented to the user. The server can return other content, such as XML, but we’ll stick to the basics for this example.
 
 ## **HTTP is stateless.**
 
