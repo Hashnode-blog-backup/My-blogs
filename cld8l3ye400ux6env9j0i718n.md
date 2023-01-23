@@ -66,19 +66,14 @@ three items:
     2. A series of HTTP headers, or header fields.
         
     3. A message body is usually needed.
-        
-    
-    As in a request message, each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then the message body begins.
-    
-    **Status line**
-    
-    The status line is the first line in the response message. It consists of three items:
-    
-    1. The HTTP version number shows the HTTP specification to which the server has tried to make the message comply.
-        
-    2. A **status code**, which is a three-digit number indicating the result of the request.
-        
-    3. A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
+ As in a request message, each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then the message body begins.
+
+**Status line**
+ The status line is the first line in the response message. It consists of three items:
+     1. The HTTP version number shows the HTTP specification to which the server has tried to make the message comply.
+      2. A **status code**, which is a three-digit number indicating the result of the request.
+      3. A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
+
   An example of a response line is:
     
     In this example:
