@@ -81,17 +81,15 @@ Because the internet can include any number of computers talking to each other, 
     2. A **status code**, which is a three-digit number indicating the result of the request.
         
     3. A **reason phrase**, also known as status text, is human-readable text that summarizes the meaning of the status code.
-        
-    
-    An example of a response line is:
+  An example of a response line is:
     
     In this example:
     
-    * the HTTP version is `HTTP/1.1`
+    the HTTP version is `HTTP/1.1`
         
-    * the status code is `200`
+    the status code is `200`
         
-    * the reason phrase is `OK`
+    the reason phrase is `OK`
         
 6. **Rendering the Response.**
     
