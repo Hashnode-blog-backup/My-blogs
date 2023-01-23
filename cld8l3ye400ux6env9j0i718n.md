@@ -43,19 +43,17 @@ Because the internet can include any number of computers talking to each other, 
     2. A series of HTTP headers, or header fields.
         
     3. A message body, if needed.
-        
-    
-    Each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then any message body begins.
+Each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then any message body begins.
     
     **Request line**
+The request line is the first line in the request message. It consists of at least
+three items:
     
-    The request line is the first line in the request message. It consists of at least three items:
-    
-    1. A **method**. The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.
+    1.  A **method**. The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.
         
-    2. The path component of the URL for the request. The path identifies the resource on the server.
+    2.  The path component of the URL for the request. The path identifies the resource on the server.
         
-    3. The HTTP version number shows the HTTP specification to which the client has tried to make the message comply.
+    3.  The HTTP version number shows the HTTP specification to which the client has tried to make the message comply.
         
 5. **Server response.**
     
